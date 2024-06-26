@@ -12,7 +12,7 @@ RUN npm install
 # Copy the rest of the application source code
 COPY . .
 
-EXPOSE : 8000
+EXPOSE 8000
 
 # Run migrations and seeders before starting the application.
 CMD ["npm","start"]
